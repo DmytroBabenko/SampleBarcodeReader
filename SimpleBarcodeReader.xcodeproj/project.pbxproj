@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3D8149C1F72C5020012C32E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D8149B1F72C5020012C32E /* main.cpp */; };
+		A3D814A41F72C5D70012C32E /* BarcodeReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D814A21F72C5D70012C32E /* BarcodeReader.cpp */; };
+		A3D814A71F72C6800012C32E /* BarcodeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D814A51F72C6800012C32E /* BarcodeData.cpp */; };
+		A3D814AA1F72CDC20012C32E /* libopencv_imgproc.3.3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D814A91F72CDC20012C32E /* libopencv_imgproc.3.3.0.dylib */; };
+		A3D814AC1F72CDDA0012C32E /* libopencv_highgui.3.3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D814AB1F72CDDA0012C32E /* libopencv_highgui.3.3.0.dylib */; };
+		A3D814AE1F72CDEF0012C32E /* libopencv_dnn.3.3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D814AD1F72CDEF0012C32E /* libopencv_dnn.3.3.0.dylib */; };
+		A3D814B11F72D0C90012C32E /* Helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3D814AF1F72D0C90012C32E /* Helper.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A3D814961F72C5020012C32E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A3D814981F72C5020012C32E /* SimpleBarcodeReader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimpleBarcodeReader; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D8149B1F72C5020012C32E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A3D814A21F72C5D70012C32E /* BarcodeReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BarcodeReader.cpp; sourceTree = "<group>"; };
+		A3D814A31F72C5D70012C32E /* BarcodeReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeReader.h; sourceTree = "<group>"; };
+		A3D814A51F72C6800012C32E /* BarcodeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BarcodeData.cpp; sourceTree = "<group>"; };
+		A3D814A61F72C6800012C32E /* BarcodeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeData.h; sourceTree = "<group>"; };
+		A3D814A91F72CDC20012C32E /* libopencv_imgproc.3.3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.3.3.0.dylib; path = "../../../../opencv-master/build/lib/libopencv_imgproc.3.3.0.dylib"; sourceTree = "<group>"; };
+		A3D814AB1F72CDDA0012C32E /* libopencv_highgui.3.3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.3.3.0.dylib; path = "../../../../opencv-master/build/lib/libopencv_highgui.3.3.0.dylib"; sourceTree = "<group>"; };
+		A3D814AD1F72CDEF0012C32E /* libopencv_dnn.3.3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_dnn.3.3.0.dylib; path = "../../../../opencv-master/build/lib/libopencv_dnn.3.3.0.dylib"; sourceTree = "<group>"; };
+		A3D814AF1F72D0C90012C32E /* Helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Helper.cpp; sourceTree = "<group>"; };
+		A3D814B01F72D0C90012C32E /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3D814951F72C5020012C32E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D814AE1F72CDEF0012C32E /* libopencv_dnn.3.3.0.dylib in Frameworks */,
+				A3D814AA1F72CDC20012C32E /* libopencv_imgproc.3.3.0.dylib in Frameworks */,
+				A3D814AC1F72CDDA0012C32E /* libopencv_highgui.3.3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3D8148F1F72C5020012C32E = {
+			isa = PBXGroup;
+			children = (
+				A3D814A81F72CD9B0012C32E /* Libs */,
+				A3D8149A1F72C5020012C32E /* SimpleBarcodeReader */,
+				A3D814991F72C5020012C32E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3D814991F72C5020012C32E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3D814981F72C5020012C32E /* SimpleBarcodeReader */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3D8149A1F72C5020012C32E /* SimpleBarcodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				A3D8149B1F72C5020012C32E /* main.cpp */,
+				A3D814A21F72C5D70012C32E /* BarcodeReader.cpp */,
+				A3D814A31F72C5D70012C32E /* BarcodeReader.h */,
+				A3D814A51F72C6800012C32E /* BarcodeData.cpp */,
+				A3D814A61F72C6800012C32E /* BarcodeData.h */,
+				A3D814AF1F72D0C90012C32E /* Helper.cpp */,
+				A3D814B01F72D0C90012C32E /* Helper.h */,
+			);
+			path = SimpleBarcodeReader;
+			sourceTree = "<group>";
+		};
+		A3D814A81F72CD9B0012C32E /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				A3D814AD1F72CDEF0012C32E /* libopencv_dnn.3.3.0.dylib */,
+				A3D814AB1F72CDDA0012C32E /* libopencv_highgui.3.3.0.dylib */,
+				A3D814A91F72CDC20012C32E /* libopencv_imgproc.3.3.0.dylib */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3D814971F72C5020012C32E /* SimpleBarcodeReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D8149F1F72C5020012C32E /* Build configuration list for PBXNativeTarget "SimpleBarcodeReader" */;
+			buildPhases = (
+				A3D814941F72C5020012C32E /* Sources */,
+				A3D814951F72C5020012C32E /* Frameworks */,
+				A3D814961F72C5020012C32E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleBarcodeReader;
+			productName = SimpleBarcodeReader;
+			productReference = A3D814981F72C5020012C32E /* SimpleBarcodeReader */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3D814901F72C5020012C32E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Dmytro Babenko";
+				TargetAttributes = {
+					A3D814971F72C5020012C32E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A3D814931F72C5020012C32E /* Build configuration list for PBXProject "SimpleBarcodeReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3D8148F1F72C5020012C32E;
+			productRefGroup = A3D814991F72C5020012C32E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3D814971F72C5020012C32E /* SimpleBarcodeReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3D814941F72C5020012C32E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D8149C1F72C5020012C32E /* main.cpp in Sources */,
+				A3D814A71F72C6800012C32E /* BarcodeData.cpp in Sources */,
+				A3D814A41F72C5D70012C32E /* BarcodeReader.cpp in Sources */,
+				A3D814B11F72D0C90012C32E /* Helper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A3D8149D1F72C5020012C32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A3D8149E1F72C5020012C32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A3D814A01F72C5020012C32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"\"$(SRCROOT)/../../../../opencv-3.3.0/build/lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_video",
+					"-lzbar",
+					"-lopencv_features2d",
+					"-lopencv_calib3d",
+					"-lopencv_highgui",
+					"-lopencv_flann",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_shape",
+					"-lopencv_videostab",
+					"-lopencv_videoio",
+					"-lopencv_ts",
+					"-lopencv_superres",
+					"-lopencv_stitching",
+					"-lopencv_photo",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3D814A11F72C5020012C32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"\"$(SRCROOT)/../../../../opencv-3.3.0/build/lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_video",
+					"-lzbar",
+					"-lopencv_features2d",
+					"-lopencv_calib3d",
+					"-lopencv_highgui",
+					"-lopencv_flann",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_shape",
+					"-lopencv_videostab",
+					"-lopencv_videoio",
+					"-lopencv_ts",
+					"-lopencv_superres",
+					"-lopencv_stitching",
+					"-lopencv_photo",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3D814931F72C5020012C32E /* Build configuration list for PBXProject "SimpleBarcodeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D8149D1F72C5020012C32E /* Debug */,
+				A3D8149E1F72C5020012C32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3D8149F1F72C5020012C32E /* Build configuration list for PBXNativeTarget "SimpleBarcodeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D814A01F72C5020012C32E /* Debug */,
+				A3D814A11F72C5020012C32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3D814901F72C5020012C32E /* Project object */;
+}
